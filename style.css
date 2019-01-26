@@ -1,0 +1,81 @@
+body {
+     background:url('https://www.limitlesswalls.com/media/catalog/product/cache/1/image/736x/040ec09b1e35df139433887a97daa66f/8/5/85286701_website_pic_large.1546601639.jpg') no-repeat fixed;
+     background-size:cover;
+     width: 100%;
+     display: block;
+ }
+
+ .TitleBar {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     height: 20px;
+     background-color: orangered;
+
+ }
+ 
+ header {
+    
+    background-color:rgb(10, 4, 59);
+    text-align:center;
+    margin: 25px 5% 10px 5%;
+    height: 100px;
+    color: white;
+ }
+
+ #NavHead { 
+     text-align: left;
+     margin-top: 5 px;
+     margin-left: 10px;
+ }
+ #NavName {
+     text-align:right;
+     margin-top: -50px;
+     margin-right: 10px;
+     
+ }
+
+ .MainNav {
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-between;
+     margin-right: 5%;
+     flex-wrap: wrap;
+ }
+
+ .MainNav li, a {
+     color: rgb(199, 199, 199);
+ }
+
+ .MainBody {
+        width: 80%;
+        margin: 10px 10% 5px 10%;
+        display:flex;
+        
+ }
+.SectionArticle {
+    flex: 1;
+    background-color: beige;
+    margin: 0 5px 0 5px;
+}
+ .AsideArticle {
+     flex: 2;
+     background-color: beige;
+     margin: 0 5px 0 5px;
+
+ }
+
+ footer {
+    position: fixed;
+    background-color: rgb(4, 3, 65);
+    text-align:center;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    color: white;
+    padding: 2px;
+ }
+
+ footer p {
+     font-size: 10px;
+ }
